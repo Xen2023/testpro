@@ -1,0 +1,52 @@
+{"level":30,"time":"2023-11-24T08:44:28.819Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Listening on 57478"}
+{"level":30,"time":"2023-11-24T08:44:28.884Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:28.884Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:28.886Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:28.886Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:28.888Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method newPersistentContext"}
+{"level":30,"time":"2023-11-24T08:44:29.117Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-11-24T08:44:29.117Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method newPersistentContext"}
+{"level":30,"time":"2023-11-24T08:44:29.117Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2023-11-24T08:44:29.120Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-11-24T08:44:29.120Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with //*[contains(text(),'Log In')] in page."}
+{"level":30,"time":"2023-11-24T08:44:39.123Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for locator('xpath=//*[contains(text(),\'Log In\')]') to be visible
+============================================================
+    at waitForElementState (/opt/homebrew/lib/python3.11/site-packages/Browser/wrapper/index.js:8508:19)
+    at async PlaywrightServer.waitForElementsState (/opt/homebrew/lib/python3.11/site-packages/Browser/wrapper/index.js:10006:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2023-11-24T08:44:39.131Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-11-24T08:44:39.131Z","pid":82306,"hostname":"admins-MacBook-Pro.local","Take screenshot with options: ":{"path":"/Users/admin/temp/test/report/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-11-24T08:44:39.194Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-11-24T08:44:39.200Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.201Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.202Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.203Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.204Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2023-11-24T08:44:39.204Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changing current active page: page=983c1267-b6e5-4633-999c-73c93b68dfdf"}
+{"level":30,"time":"2023-11-24T08:44:39.204Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2023-11-24T08:44:39.205Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.205Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.206Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-24T08:44:39.206Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-24T08:44:39.207Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-24T08:44:39.207Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-24T08:44:39.208Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changing current active page: page=983c1267-b6e5-4633-999c-73c93b68dfdf"}
+{"level":30,"time":"2023-11-24T08:44:39.208Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2023-11-24T08:44:39.210Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.210Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.211Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active context"}
+{"level":30,"time":"2023-11-24T08:44:39.211Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changing current active page: page=983c1267-b6e5-4633-999c-73c93b68dfdf"}
+{"level":30,"time":"2023-11-24T08:44:39.211Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2023-11-24T08:44:39.211Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-11-24T08:44:39.213Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Removed page=983c1267-b6e5-4633-999c-73c93b68dfdf from context=036bb570-c150-4a24-86ad-37dd2f1d4f4a page stack"}
+{"level":30,"time":"2023-11-24T08:44:39.236Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-11-24T08:44:39.238Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.238Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-24T08:44:39.246Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-11-24T08:44:39.246Z","pid":82306,"hostname":"admins-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
