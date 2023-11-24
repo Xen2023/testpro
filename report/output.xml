@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.11.3 on darwin)" generated="20231124 15:44:28.575" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.11.3 on darwin)" generated="20231124 15:52:01.925" rpa="false" schemaversion="4">
 <suite id="s1" name="Testcases" source="/Users/admin/temp/test/testcases">
 <suite id="s1-s1" name="Logintestsuite" source="/Users/admin/temp/test/testcases/logintestsuite.robot">
 <test id="s1-s1-t1" name="Test case 01" line="5">
-<kw name="New Persistent Context" library="Browser">
+<kw name="New Page" library="Browser">
 <arg>https://robotframework.org/</arg>
-<doc>Open a new
-[https://playwright.dev/docs/api/class-browsertype#browser-type-launch-persistent-context | persistent context].</doc>
-<msg timestamp="20231124 15:44:28.887" level="INFO">{
-  "userDataDir": "https://robotframework.org/",
-  "browser": "chromium",
-  "headless": true,
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "chromiumSandbox": false,
-  "devtools": false,
-  "forcedColors": "none",
-  "handleSIGHUP": true,
-  "handleSIGINT": true,
-  "handleSIGTERM": true,
-  "ignoreHTTPSErrors": false,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "slowMo": 0.0,
-  "timeout": 30000.0,
-  "viewport": {
-    "height": 720,
-    "width": 1280
-  },
-  "tracesDir": "/Users/admin/temp/test/report/browser/traces/bfb22ac0-faa6-46ea-90e6-acd23e5a3833"
-}</msg>
-<msg timestamp="20231124 15:44:29.119" level="INFO">Successfully created context. </msg>
-<msg timestamp="20231124 15:44:29.119" level="INFO">{'userDataDir': 'https://robotframework.org/', 'browser': 'chromium', 'headless': True, 'acceptDownloads': True, 'bypassCSP': False, 'chromiumSandbox': False, 'devtools': False, 'forcedColors': 'none', 'handleSIGHUP': True, 'handleSIGINT': True, 'handleSIGTERM': True, 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'slowMo': 0, 'timeout': 30000, 'viewport': {'height': 720, 'width': 1280}, 'tracesDir': '/Users/admin/temp/test/report/browser/traces/bfb22ac0-faa6-46ea-90e6-acd23e5a3833'}</msg>
-<status status="PASS" starttime="20231124 15:44:28.887" endtime="20231124 15:44:29.119"/>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20231124 15:52:05.624" level="INFO">Successfully initialized new page object and opened url: https://robotframework.org/</msg>
+<msg timestamp="20231124 15:52:05.624" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<status status="PASS" starttime="20231124 15:52:02.220" endtime="20231124 15:52:05.624"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231124 15:52:20.626" level="INFO">Slept 15 seconds</msg>
+<status status="PASS" starttime="20231124 15:52:05.624" endtime="20231124 15:52:20.626"/>
+</kw>
+<kw name="Take Screenshot" library="Browser">
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<msg timestamp="20231124 15:52:20.717" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20231124 15:52:20.626" endtime="20231124 15:52:20.717"/>
 </kw>
 <kw name="Wait For Elements State" library="Browser">
 <arg>//*[contains(text(),'Log In')]</arg>
@@ -42,24 +30,24 @@
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<msg timestamp="20231124 15:44:39.195" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
-<msg timestamp="20231124 15:44:39.196" level="INFO">See also file:///Users/admin/temp/test/report/playwright-log.txt for additional details.</msg>
-<msg timestamp="20231124 15:44:39.196" level="FAIL">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+<msg timestamp="20231124 15:52:30.807" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg timestamp="20231124 15:52:30.807" level="INFO">See also file:///Users/admin/temp/test/report/playwright-log.txt for additional details.</msg>
+<msg timestamp="20231124 15:52:30.807" level="FAIL">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
 =========================== logs ===========================
 waiting for locator('xpath=//*[contains(text(),\'Log In\')]') to be visible
 ============================================================
 Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</msg>
-<status status="FAIL" starttime="20231124 15:44:29.119" endtime="20231124 15:44:39.199"/>
+<status status="FAIL" starttime="20231124 15:52:20.717" endtime="20231124 15:52:30.808"/>
 </kw>
-<status status="FAIL" starttime="20231124 15:44:28.886" endtime="20231124 15:44:39.199">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+<status status="FAIL" starttime="20231124 15:52:02.218" endtime="20231124 15:52:30.808">TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
 =========================== logs ===========================
 waiting for locator('xpath=//*[contains(text(),\'Log In\')]') to be visible
 ============================================================
 Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</status>
 </test>
-<status status="FAIL" starttime="20231124 15:44:28.582" endtime="20231124 15:44:39.237"/>
+<status status="FAIL" starttime="20231124 15:52:01.931" endtime="20231124 15:52:30.833"/>
 </suite>
-<status status="FAIL" starttime="20231124 15:44:28.575" endtime="20231124 15:44:39.239"/>
+<status status="FAIL" starttime="20231124 15:52:01.925" endtime="20231124 15:52:30.835"/>
 </suite>
 <statistics>
 <total>
